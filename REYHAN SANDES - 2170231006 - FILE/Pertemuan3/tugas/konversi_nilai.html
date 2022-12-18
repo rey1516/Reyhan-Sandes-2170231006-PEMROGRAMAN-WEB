@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Konversi Nilai</title>
+
+<script>
+function konversi(){
+var nilai_a = Number(document.getElementById("a").value);
+var nilai_huruf;
+if((nilai_a>=0)&&(nilai_a<=40))
+nilai_huruf = 'E';
+else if((nilai_a>=41)&&(nilai_a<=55))
+nilai_huruf = 'D';
+else if((nilai_a>=56)&&(nilai_a<=60))
+nilai_huruf = 'C';
+else if((nilai_a>=61)&&(nilai_a<=65))
+nilai_huruf = 'BC';
+else if((nilai_a>=66)&&(nilai_a<=70))
+nilai_huruf = 'B';
+else if((nilai_a>=71)&&(nilai_a<=80))
+nilai_huruf = 'AB';
+else if((nilai_a>=81)&&(nilai_a<=100))
+nilai_huruf = 'A';
+else
+nilai_huruf = 'Tidak Terdeteksi';
+document.getElementById("c").value = nilai_huruf;
+}
+</script>
+</head>
+<body>
+<h1>Konversi Nilai</h1>
+<hr>
+<div id="judul"></div>
+<br>
+Nilai :<input type="text" name="a" id="a" size="10">
+=
+Huruf :<input type="text" name="c" id="c" size="10"><br>
+<br>
+<input type="button" name="tombol" id="tombol" value="konversi" onClick="konversi()"/>
+</body>
+</html>

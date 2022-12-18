@@ -1,0 +1,31 @@
+.li {
+    display: inline;
+    margin: 5px;
+    padding: 6px;
+}
+
+.sd {
+    float: left;
+    margin-left: 280px;
+    border: 3px solid rgb(70, 69, 69);
+    box-shadow: 10px 15px 15px #362727;
+}
+
+.smp {
+    float: left;
+    margin-left: 150px;
+    border: 3px solid rgb(70, 40, 40);
+    box-shadow: 8px 13px 11px #553e3e;
+}
+
+.smk {
+    float: left;
+    margin-left: -580px;
+    margin-top: 150px;
+    border: 3px solid rgb(220, 215, 215);
+    box-shadow: 8px 13px 11px #323f36;
+}
+
+.s {
+    text-align: justify;
+}
